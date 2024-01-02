@@ -25,8 +25,10 @@
     "package.json": "npx sort-package-json"
   },
   "dependencies": {
+    "@popperjs/core": "2.11.8",
     "@reduxjs/toolkit": "^2.0.1",
     "@vitejs/plugin-react": "^4.2.1",
+    "bootstrap": "5.2.3",
     "deepmerge-json": "^1.5.0",
     "dotenv": "^16.3.1",
     "i18next": "^23.7.13",
@@ -64,7 +66,7 @@
     "postcss": "^8.4.33",
     "prettier": "^3.2.4",
     "prettier-plugin-css-order": "^2.0.1",
-    "sass": "^1.69.6",
+    "sass": "1.64.2",
     "typescript": "^5.2.2"
   }
 }
