@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import useAppSelector from '@/hooks/useAppSelector';
 import useAppDispatch from '@/hooks/useAppDispatch';
 import { login, logout } from '@/store/reducers/auth';
@@ -5,13 +7,14 @@ import { login, logout } from '@/store/reducers/auth';
 import styles from './styles.module.scss';
 
 function About() {
+  const { t } = useTranslation();
   const auth = useAppSelector((state) => state.auth);
   const dispatch = useAppDispatch();
 
   return (
     <div>
       <div className={styles.title}>
-        About
+        {t('About.title')}
       </div>
       <div>
         is login:

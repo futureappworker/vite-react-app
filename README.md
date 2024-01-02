@@ -67,6 +67,7 @@ Frontend
   |   |   |                              檔案命名 小駝峰，"use" 開頭 ex. useUpload
   |   |   └── useAppDispatch           # 拿到 dispatch 的 hoook
   |   |   └── useAppSelector           # 拿取 redux store 的 hook
+  |   └── i18n                         # 存放 多國語系
   |   └── layouts                      # 存放 layout
   |   └── pages                        # 頁面
   |   └── services                     # 存放與後端的 API 接口
@@ -134,6 +135,29 @@ store.dispatch(logout());
     isMountRef.current = true;
   }, []);
   ```
+
+---
+
+## i18n
+
+元件中 i18n hook
+
+```javascript
+import { useTranslation } from 'react-i18next';
+// ...
+function about() {
+  const { t } = useTranslation();
+  // ...
+}
+```
+
+非元件中，使用 i18n
+
+```javascript
+import i18n from '@/i18n';
+// ...
+const { t } = i18n;
+```
 
 ### 套件版本
 

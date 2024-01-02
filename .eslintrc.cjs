@@ -22,5 +22,9 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
     'no-param-reassign': 'off',
+    'no-shadow': 'off',
+    'no-unused-vars': 'off',
+    'no-underscore-dangle': 'off',
+    'arrow-body-style': 'off',
   },
 }
