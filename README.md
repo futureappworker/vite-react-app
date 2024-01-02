@@ -31,6 +31,12 @@ $ pnpm install
 $ pnpm dev
 ```
 
+也要打開 gulp task 到背景工作
+
+```bash
+$ pnpm gulp
+```
+
 ### 打包
 
 會生成到 dist 資料夾中
