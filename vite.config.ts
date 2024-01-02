@@ -12,7 +12,6 @@ export default defineConfig({
           let resultContent = '';
           resultContent += '@import "./src/styles/reset.scss";';
           resultContent += '@import "./src/styles/variables.scss";';
-          resultContent += '@import "./src/styles/bootstrap.scss";';
           resultContent += '@import "./src/styles/global.scss";';
           resultContent += content;
           return resultContent;
