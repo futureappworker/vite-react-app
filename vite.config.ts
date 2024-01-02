@@ -10,6 +10,7 @@ export default defineConfig({
       scss: {
         additionalData: (content) => {
           let resultContent = '';
+          resultContent += '@import "./src/styles/reset.scss";';
           resultContent += '@import "./src/styles/variables.scss";';
           resultContent += '@import "./src/styles/global.scss";';
           resultContent += content;
