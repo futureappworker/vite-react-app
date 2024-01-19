@@ -13,22 +13,22 @@ function About() {
 
   return (
     <div>
-      <div className={styles.title}>
-        {t('About.title')}
-      </div>
+      <div className={styles.title}>{t('About.title')}</div>
       <div>
-        is login:
-        &nbsp;
+        is login: &nbsp;
         {auth.isLogin ? 'Yes' : 'No'}
       </div>
       <div>
-        name:
-        &nbsp;
+        name: &nbsp;
         {auth.name}
       </div>
       <div>
-        <button type="button" onClick={() => dispatch(login({ name: 'Mary' }))}>login</button>
-        <button type="button" onClick={() => dispatch(logout())}>logout</button>
+        <button type="button" onClick={() => dispatch(login({ name: 'Mary' }))}>
+          login
+        </button>
+        <button type="button" onClick={() => dispatch(logout())}>
+          logout
+        </button>
       </div>
     </div>
   );

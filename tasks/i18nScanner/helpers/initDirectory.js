@@ -18,7 +18,7 @@ const initDirectory = async () => {
       setToLocal({
         lng,
         json: {},
-      })
+      }),
     );
   });
   await Promise.all(allPromises);

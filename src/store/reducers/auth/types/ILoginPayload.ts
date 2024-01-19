@@ -1,5 +1,5 @@
 interface ILoginPayload {
-  name: string,
+  name: string;
 }
 
 export default ILoginPayload;

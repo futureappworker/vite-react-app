@@ -168,12 +168,12 @@ const { t } = i18n;
 
 ### 套件版本
 
-| 套件                                                         | 版本 |
-| ------------------------------------------------------------ | ---- |
-| React                                                        | 18   |
-| typescript                                                   | 5    |
-| [React Router](https://reactrouter.com/en/main)              | 6    |
-| [lodash](https://lodash.com/docs/4.17.15)                    | 4    |
+| 套件                                            | 版本 |
+| ----------------------------------------------- | ---- |
+| React                                           | 18   |
+| typescript                                      | 5    |
+| [React Router](https://reactrouter.com/en/main) | 6    |
+| [lodash](https://lodash.com/docs/4.17.15)       | 4    |
 
 ### 連結
 
