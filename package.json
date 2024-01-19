@@ -9,6 +9,7 @@
     "gulp": "gulp",
     "gulp:i18n-scanner": "gulp i18n-scanner",
     "lint": "eslint . --ext js,ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install",
     "prettier": "pnpm exec prettier . --write",
     "preview": "vite preview"
@@ -17,8 +18,8 @@
     "*.{scss,css,md,json}": [
       "prettier --write"
     ],
-    "*.ts?(x)": [
-      "eslint --fix",
+    "*.{js,ts?(x)}": [
+      "npm run lint -- --fix",
       "prettier --write"
     ],
     "package.json": "npx sort-package-json"
