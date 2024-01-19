@@ -186,6 +186,30 @@ import i18n from '@/i18n';
 const { t } = i18n;
 ```
 
+---
+
+## 其他
+
+其他註記事項
+
+### 約定式提交 Conventional Commits
+
+#### type (類型)
+
+| 類型     | 說明                                                                            |
+| -------- | ------------------------------------------------------------------------------- |
+| feat     | 功能的變動，比如 新增 修改 刪除... 等等的                                       |
+| fix      | 修復 bug                                                                        |
+| docs     | 文件更改                                                                        |
+| style    | coding style 的調整，例如：空白、分號、空格等，不影響程式碼的內容               |
+| refactor | 重構現有程式碼，不屬於新增新功能或是修 bug                                      |
+| perf     | 提升效能的改進                                                                  |
+| test     | 新增或修改測試                                                                  |
+| build    | 和打包或外部依賴相關，或輔助工具的修改，例如：npm、gulp、broccoli               |
+| ci       | 與 CI 設定檔或 script 相關的修改，例如：Travis、Circle、BrowserStack、SauceLabs |
+| chore    | 其他，並且也不會修改原始碼或是測試，例如：storybook 的新增或變更                |
+| revert   | 回復前一個提交的 commit                                                         |
+
 ### Vscode 套件推薦
 
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
