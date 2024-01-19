@@ -18,10 +18,16 @@ $ npm install -g pnpm
 
 script 命令
 
-### 安裝
+### 安裝 套件
 
 ```bash
 $ pnpm install
+```
+
+### Husky Install
+
+```bash
+$ pnpm prepare
 ```
 
 ### 開發
@@ -52,6 +58,20 @@ $ pnpm build
 
 ```bash
 $ pnpm preview
+```
+
+### Eslint
+
+lint 檢查
+
+```bash
+$ pnpm lint
+```
+
+lint + fix
+
+```bash
+$ pnpm lint:fix
 ```
 
 ---
