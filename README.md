@@ -93,7 +93,7 @@ $ pnpm lint:fix
 #### 資料夾說明
 
 ```
-Frontend
+Root
   ├── public                           # 公用文件，如網站圖示（favicon.ico）等
   ├── src                              # 主要原始碼目錄
   |   └── assets                       # 靜態資源文件，如圖片、字體等
@@ -101,7 +101,7 @@ Frontend
   |   |   |                              元件命名 大駝峰
   |   |   |                              HOC => "with" 開頭 ex. withBaseForm,withBaseTable
   |   └── consts                       # 存放常數或設定文件，用於整個應用的常數定義
-  |   └── helpers                      # 存放共用業務邏輯模塊
+  |   └── helpers                      # 存放共用業務邏輯模塊，具有業務邏輯
   |   └── hooks                        # 自訂 React 鉤子函數
   |   |   |                              檔案命名 小駝峰，"use" 開頭 ex. useUpload
   |   |   └── useAppDispatch           # 拿到 dispatch 的 hoook
@@ -109,6 +109,7 @@ Frontend
   |   └── i18n                         # 存放 多國語系
   |   └── layouts                      # 存放 layout
   |   └── pages                        # 頁面
+  |   └── plugins                      # 與特定函式庫相關
   |   └── services                     # 存放與後端的 API 接口
   |   └── store                        # 全域狀態管理的程式碼
   |   └── styles                       # 存放全域樣式檔案。
@@ -117,7 +118,7 @@ Frontend
   |   |   └── variables.scss           # 全域 scss 變數設定
   |   |   └── reset.scss               # 重置樣式文件，用於重置瀏覽器預設樣式，以確保跨瀏覽器一致性。
   |   └── types                        # 存放全域 TypeScript 類型宣告檔
-  |   └── utils                        # 存放通用的工具函數/模塊
+  |   └── utils                        # 存放通用的工具函數/模塊，不具有業務邏輯
 ```
 
 ---

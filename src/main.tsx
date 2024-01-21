@@ -5,10 +5,12 @@ import { Provider } from 'react-redux';
 
 import router from '@/routers';
 import store from '@/store';
+import '@/i18n';
 
 import '@/styles/bootstrap/bootstrap.scss';
 
 import './i18n';
+import '@/plugins/dayjs';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
